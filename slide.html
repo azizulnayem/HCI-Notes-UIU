@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Slides</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ff8c00;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #ffae42;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #ff6f00;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .slide-button {
+            display: block;
+            margin: 10px;
+            padding: 15px 30px;
+            background-color: #ff8c00;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+        .slide-button:hover {
+            background-color: #ff6f00;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>All Slides</h1>
+</header>
+
+<nav>
+    <!-- Unified navigation links -->
+    <a href="index.html">Back to Home</a>
+</nav>
+
+<div class="container">
+    <!-- Slide buttons -->
+    <button class="slide-button" onclick="openSlide('slides/slide1.ppt')">Slide 1</button>
+    <button class="slide-button" onclick="openSlide('slides/slide2.ppt')">Slide 2</button>
+    <button class="slide-button" onclick="openSlide('slides/slide3.ppt')">Slide 3</button>
+    <button class="slide-button" onclick="openSlide('slides/slide4.ppt')">Slide 4</button>
+    <button class="slide-button" onclick="openSlide('slides/slide5.ppt')">Slide 5</button>
+    <button class="slide-button" onclick="openSlide('slides/slide6.ppt')">Slide 6</button>
+    <button class="slide-button" onclick="openSlide('slides/slide7.ppt')">Slide 7</button>
+    <button class="slide-button" onclick="openSlide('slides/slide8.ppt')">Slide 8</button>
+    <button class="slide-button" onclick="openSlide('slides/slide9.ppt')">Slide 9</button>
+    <button class="slide-button" onclick="openSlide('slides/slide10.ppt')">Slide 10</button>
+    <button class="slide-button" onclick="openSlide('slides/slide11.ppt')">Slide 11</button>
+    <button class="slide-button" onclick="openSlide('slides/slide12.ppt')">Slide 12</button>
+    <button class="slide-button" onclick="openSlide('slides/slide13.ppt')">Slide 13</button>
+    <button class="slide-button" onclick="openSlide('slides/slide14.ppt')">Slide 14</button>
+    <button class="slide-button" onclick="openSlide('slides/slide15.ppt')">Slide 15</button>
+    <button class="slide-button" onclick="openSlide('slides/slide16.ppt')">Slide 16</button>
+    <button class="slide-button" onclick="openSlide('slides/slide17.ppt')">Slide 17</button>
+    <button class="slide-button" onclick="openSlide('slides/slide18.ppt')">Slide 18</button>
+    <button class="slide-button" onclick="openSlide('slides/slide19.ppt')">Slide 19</button>
+    <button class="slide-button" onclick="openSlide('slides/slide20.ppt')">Slide 20</button>
+    <button class="slide-button" onclick="openSlide('slides/slide21.ppt')">Slide 21</button>
+</div>
+
+<script>
+    // Function to open slide in browser
+    function openSlide(url) {
+        window.open(url, '_blank');
+    }
+</script>
+
+</body>
